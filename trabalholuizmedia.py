@@ -7,7 +7,15 @@ segunda_nota = float(input('segunda nota: '))
 terceira_nota = float(input('terceira nota: '))
 quarta_nota = float(input('quarta nota: '))
 
-media = (primeira_nota + segunda_nota + terceira_nota + quarta_nota)
+notas = (primeira_nota + segunda_nota + terceira_nota + quarta_nota)
+media = (notas /4)
 
-print ('a nota final do aluno é:')
-print (media /4)
+if media >= 6:
+    print ('Aluno aprovado, nota final:')
+else:
+    print ('Aluno reprovado, nota final:')
+
+
+print (media)
+
+
