@@ -16,9 +16,9 @@ notas = (primeira_nota + segunda_nota + terceira_nota + quarta_nota)
 media = (notas /4)
 
 if media >= 6:
-    print (nome_do_aluno,'fechou com: ')
+    print (nome_do_aluno,'aprovado/aprovada, nota final: ')
 else:
-    print (nome_do_aluno,'fechou com: ')
+    print (nome_do_aluno,'reprovado/reprovada, notal final: ')
 
 print (media)
 
